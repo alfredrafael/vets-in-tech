@@ -7,7 +7,7 @@ import Fade from 'react-reveal/Fade';
 
 
 const MyButton = styled.button`
-background: ${props => props.ghost ? "transparent" : "blue"}
+background: ${props => props.ghost ? "transparent" : "#701ba19e"}
 font-size: 1em;
 margin: 1em;
 padding: 0.45em 3em;
@@ -69,7 +69,7 @@ class VideoHero extends React.Component {
               bottom: 0,
               width: "100%",
               height: "110vh",
-              background: "rgba(28, 31, 39, 0.7)",
+              background: "rgba(28, 31, 39, 0.5)",
               color: "white",
               marginBottom: ".3%",
               objectFit: "contain",

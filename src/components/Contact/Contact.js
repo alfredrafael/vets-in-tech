@@ -1,8 +1,8 @@
 import React from 'react';
 import './Contact.css';
-import IndividualCall from '../IndividualCall/IndividualCall';
 import StudentModal from '../StudentModal/StudentModal';
 import {Route} from 'react-router-dom'
+import Carousel from '../Carousel/Carousel';
 
 
 
@@ -16,6 +16,7 @@ class Contact extends React.Component {
             <StudentModal />
             Yup
             </div>
+            <Carousel/>
             </Route>
         );
     }

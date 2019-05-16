@@ -5,6 +5,8 @@ import VideoHero from '../VideoHero'
 import Showcase from '../Showcase'
 import Agradecimientos from "../agradecimientos/Agradecimientos";
 import Rollcall from '../Rollcall/Rollcall';
+import Carousel from '../Carousel/Carousel';
+
 
 
 class Home extends React.Component {
@@ -22,6 +24,8 @@ class Home extends React.Component {
         <Showcase />
         <Agradecimientos />
         <Rollcall />
+        <Carousel />
+        
       </div>     
     );
   }
