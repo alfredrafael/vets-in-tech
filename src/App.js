@@ -6,7 +6,7 @@ import Home from './components/Home';
 import Contact from './components/Contact';
 import {
   BrowserRouter as Router,
-  Route, W
+  Route,
 } from 'react-router-dom';
 import VideoHero from './components/VideoHero/VideoHero';
 

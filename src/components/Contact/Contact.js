@@ -10,9 +10,12 @@ class Contact extends React.Component {
 
     render() {
         return (
+            <React.Fragment basename="/vets-in-tech/">
             <div style={{marginTop: '10%'}}>
             <StudentModal />
+            Yup!
             </div>
+            </React.Fragment>
         );
     }
 }
