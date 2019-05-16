@@ -35,7 +35,7 @@ class AppNavbar extends React.Component {
     return (
       <div className="navBarText">
         <Navbar sticky="top" className="navbarStyle container-fluid" style={{position: 'fixed', borderBottom: '.1px solid grey', fontFamily: 'Lato', fontSize: '130%'}} dark expand="md" bg="red">
-          <NavbarBrand style={{marginLeft: '5%'}} href="/">Yes</NavbarBrand>
+          <NavbarBrand style={{marginLeft: '5%'}} href="https://alfredrafael.github.io/vets-in-tech/">Home</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar style={{marginRight: '5%'}}>
