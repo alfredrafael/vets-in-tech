@@ -69,7 +69,7 @@ class VideoHero extends React.Component {
               bottom: 0,
               width: "100%",
               height: "110vh",
-              background: "rgba(28, 31, 39, 0.5)",
+              background: "rgba(28, 31, 39, 0.6)",
               color: "white",
               marginBottom: ".3%",
               objectFit: "contain",
