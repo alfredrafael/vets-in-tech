@@ -22,7 +22,7 @@ class App extends Component {
   
   render() {
     return (
-      <Router basename="/vets-in-tech">
+      <Router basename="/vets-in-tech/">
       
         <div className="App">
 
@@ -39,7 +39,7 @@ class App extends Component {
             </div>
 
             <div>
-              <Route path="/contact" component={Contact}/>
+              <Route path="/contact/" component={Contact}/>
             </div>
           
         <Footer/> {/* This will always appear, in all pages, because is in App.js without path (withough conditions, maybe?) */}
