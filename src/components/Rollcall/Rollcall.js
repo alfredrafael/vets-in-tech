@@ -218,7 +218,7 @@ class Rollcall extends React.Component {
               onClick={() => this.populateModal(student)}
             />
             <CardBody>
-              <CardTitle>
+              <CardTitle onClick={() => this.populateModal(student)}> {/* Extra fn declaration */}
               <img src={student.branchSeal} style={{maxWidth: '25%', margin: '0 7% 0 -20%'}}></img> {student.name}
               </CardTitle>
               <CardText>
@@ -242,14 +242,6 @@ class Rollcall extends React.Component {
 
 
         <ModalBody key={this.state.clickedStudent.id}>
-  {/*  <section style={{maxWidth: '50%', background: 'red', display: 'table-cell'}}>
-                <img src={student.photo} style={{maxWidth: '50%', display: 'inline-block'}}/>
-              </section>
-
-              <aside style={{display: 'table-cell'}}>
-                <p style={{ display: 'inline-block'}}>{student.bio}</p>
-              </aside> */}
-
             <section class="dividedInTwo">
               <div class="dividedInTwoContainer">
                 <article class="flexedArea">
@@ -262,17 +254,24 @@ class Rollcall extends React.Component {
                 <aside class="right">
 
                       <div>
-                        <h3  style={{marginBottom: '-2%'}}>{student.name}</h3>
+                        <h2  style={{marginBottom: '-2%', fontWeight: '300'}}><strong>{student.name}</strong></h2>
                       </div>
                       
                       <div>
-                        <img src={student.branchSeal} style={{ maxWidth: "15%", float: 'right', marginTop: '-10%'}}/>
+                        <img src={student.branchSeal} style={{ maxWidth: "15%", float: 'right', marginTop: '-11%'}}/>
                       </div>
 
-                  <div style={{marginTop: '5%'}}>
-                    {student.bio}
-                  </div>
+                      <div>
+                        <h4  style={{marginBottom: ''}}> <span style={{fontFamily: 'Stardos Stencil'}}>Branch:</span> {student.branch}</h4>
+                      </div>
 
+                      <div>
+                        <h4  style={{marginBottom: '-2%'}}> <span style={{fontFamily: 'Stardos Stencil'}}>Status:</span> {student.status}</h4>
+                      </div>
+
+                      <div style={{marginTop: '5%'}}>
+                        <h4><span style={{fontFamily: 'Stardos Stencil'}}>About:</span>&nbsp;<span style={{fontSize:'95%'}}>{student.bio}</span></h4>
+                      </div>
                 </aside>
               </div>
             </section>
@@ -311,11 +310,9 @@ class Rollcall extends React.Component {
 
               <ModalFooter>
                 <Button color="primary" onClick={this.triggermodal}>
-                  Do Something
+                  Close
                 </Button>{" "}
-                <Button color="secondary" onClick={this.triggermodal}>
-                  Cancel
-                </Button>
+                
               </ModalFooter>
             </Modal>
           </div>
