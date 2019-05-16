@@ -1,0 +1,12 @@
+.navbarWrapper { /*along with 'container fluid', makes the navbar*/
+    position: fixed;
+    display: flex-fluid;
+    width: 100%;
+}
+
+.navbarStyle {
+    position: fixed; /*The markup doing the trick is not this one, but the "hardcoded" one in the component...*/
+    background: #6f1ba1;
+    height: 10vh;
+}
+

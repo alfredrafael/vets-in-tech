@@ -1,0 +1,120 @@
+.sectionHeader {
+    font-size: 450%; 
+    font-weight: 200; 
+    padding-bottom: 4%; 
+    padding-top: 4%;
+    color: rgb(111, 27, 161);
+    background: linear-gradient(pink, white);
+}
+
+/*/////////////Grow on hover Effect////////////*/
+.growEffect {
+    transition: all .2s ease-in-out;
+}
+.growEffect:hover {
+    transform: scale(1.2)
+}
+/*/////////////Grow on hover Effect Ends////////////*/
+
+
+
+
+
+
+/*//////////////////Modal picture and Bio///////////////////*/
+.dividedInTwo {
+    height: 100%;
+    display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
+    display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+    display: -ms-flexbox;  /* TWEENER - IE 10 */
+    display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+    
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+  
+  .dividedInTwo > * {
+     flex: 1 100%;
+    -webkit-flex: 1 100%; 
+  }
+  
+  
+  .dividedInTwoContainer {
+    flex: 1;
+    -webkit-flex: 1; 
+    
+    display: flex;        
+    display: -webkit-box;  
+    display: -ms-flexbox; 
+    display: -webkit-flex;  
+    
+    -webkit-flex-direction: row;
+    flex-direction: row;
+  }
+  
+  .flexedArea {
+    background: rgb(212, 220, 223);
+     max-width: 600px;
+    position: relative;
+    
+    display: flex;        
+    display: -webkit-box;  
+    display: -ms-flexbox; 
+    display: -webkit-flex;  
+    
+    flex: 1 auto;
+    -webkit-flex: 1 auto;
+    
+    -webkit-order: 3;
+    order: 3;
+    
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+  
+  .right {
+    margin: 0 2% 0 2%;
+    max-width: 600px;
+    position: relative;
+    
+    display: flex;        
+    display: -webkit-box;  
+    display: -ms-flexbox; 
+    display: -webkit-flex;  
+    
+    flex: 1 auto;
+    -webkit-flex: 1 auto;
+    
+    -webkit-order: 3;
+    order: 3;
+    
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+  
+  .rightContent {
+    background: lightpink;
+    
+    flex: 1 auto;
+    -webkit-flex: 1 auto;
+  }
+  
+  @media screen and (max-width: 479px) {
+    .dividedInTwoContainer {
+      -webkit-flex-direction: column;
+      flex-direction: column;
+    }
+    .right, .flexedArea {
+      max-width: 100%;
+      
+      flex: 1;
+      -webkit-flex: 1;
+    }
+    /* body, html, .dividedInTwo {
+      height: auto; 
+    }*/
+  }
+
+
+
+  /*////////////////////////////////////////////////////*/

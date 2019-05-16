@@ -1,0 +1,16 @@
+.homeText {
+    width: 100%;
+}
+
+.home-overlay-div {
+    background: transparent;
+}
+
+.bannerButtons:hover{
+    background: red;
+    color: white;
+    background: rgb(205, 193, 205);
+}
+
+
+

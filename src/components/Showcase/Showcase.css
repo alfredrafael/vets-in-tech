@@ -1,0 +1,38 @@
+
+.section-showcase {
+    padding: 0;
+}
+
+.photos-showcase {
+    list-style: none;
+    width: 100%;
+    padding: 0;
+
+    margin-top: 10%;
+}
+
+.photos-showcase li {
+    display: block;
+    float: left;
+    width: 25%;
+}
+
+.single-photo {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+.single-photo img {
+    opacity: 0.7;
+    width: 100%;
+    height: auto;
+    transform: scale(1.15);
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.single-photo img:hover {
+    opacity: 1;
+    transform: scale(1.03);
+}
