@@ -5,7 +5,6 @@ import {Jumbotron} from "reactstrap";
 import styled from 'styled-components';
 import Fade from 'react-reveal/Fade';
 
-let colorButton = "red"
 
 const MyButton = styled.button`
 background: ${props => props.ghost ? "transparent" : "blue"}
