@@ -5,9 +5,10 @@ import {Jumbotron} from "reactstrap";
 import styled from 'styled-components';
 import Fade from 'react-reveal/Fade';
 
+let colorButton = "red"
 
 const MyButton = styled.button`
-background: ${props => props.ghost ? "transparent" : "#6f1ba1"}
+background: ${props => props.ghost ? "transparent" : "blue"}
 font-size: 1em;
 margin: 1em;
 padding: 0.45em 3em;
