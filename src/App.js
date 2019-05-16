@@ -7,6 +7,7 @@ import Contact from './components/Contact';
 import {
   BrowserRouter as Router,
   Route,
+  Switch,
 } from 'react-router-dom';
 import VideoHero from './components/VideoHero/VideoHero';
 
@@ -22,13 +23,14 @@ class App extends Component {
   
   render() {
     return (
-      <Router>
+      <Router basename="/vets-in-tech">
       <div className="App">
 
             <div>
               <AppNavbar /> {/* This will always appear, in all pages, because is in App.js without path (withough conditions, maybe?) */}
             </div>
 
+            
             <div className='homeStyle'>
               <Route exact path="/" component={Home}/>
             </div>
@@ -36,7 +38,7 @@ class App extends Component {
             <div className='contactStyle'>
               <Route path="/contact" component={Contact}/>
               <Route path="/videoHero" component={VideoHero}/>
-            </div>
+            </div>   
           
         <Footer/> {/* This will always appear, in all pages, because is in App.js without path (withough conditions, maybe?) */}
           </div>
