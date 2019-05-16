@@ -6,7 +6,7 @@
 
 .navbarStyle {
     position: fixed; /*The markup doing the trick is not this one, but the "hardcoded" one in the component...*/
-    background: #6f1ba1;
+    background: linear-gradient(to right, blue, #3430b4,#6030b4, #6f1ba1, #6f1ba1);
     height: 10vh;
 }
 
