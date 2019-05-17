@@ -7,7 +7,7 @@ import Fade from 'react-reveal/Fade'
 class Testimonials extends React.Component {
   render() {
     return (
-        <div>
+        <div className='testimonialDiv'>
       <div className="testimonialHeader" style={{background: 'pink'}}>
       
       </div>

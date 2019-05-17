@@ -1,6 +1,9 @@
 /* parallax https://codepen.io/alfredrafael/pen/arWQvB */
 /* overlay http://www.korenlc.com/css-overlay-how-to-create-a-simple-css-overlay/ */
 
+.testimonialDiv {
+   
+}
 .headerWithLine {
     font-weight: 300;
     font-size: 400%;
@@ -29,6 +32,8 @@
     background-size: cover;
     color: #fff;
     background-attachment: fixed;
+
+    overflow-x: hidden;
 }
 
 .blockquote {

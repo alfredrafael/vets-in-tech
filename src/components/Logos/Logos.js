@@ -17,12 +17,12 @@ class Logos extends React.Component {
             </Col>
 
                             
-            <Col style={{ marginRight: '4%'}}>
+            <Col style={{ marginRight: '1%'}}>
                 <img src={"https://i.imgur.com/sF5dyMz.png"} style={{maxWidth: '70%'}}/> {/* US Flag */}
             </Col>
       
             <Col>
-                <img src={'https://i.imgur.com/NiW2aS9.png'} style={{maxWidth: '60%', float: 'right'}}/> {/* Proud to serve */}
+                <img src={'https://i.imgur.com/NiW2aS9.png'} style={{maxWidth: '61%', float: 'right'}}/> {/* Proud to serve */}
             </Col>
 
             </Row>

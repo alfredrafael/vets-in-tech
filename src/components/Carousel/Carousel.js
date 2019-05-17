@@ -8,8 +8,9 @@ import Fade from 'react-reveal/Fade'
 
 const Carousel = () => {
     return(
+      <div className='carouselDiv'>
       <Fade>
-        <MDBContainer style={{marginTop: '5%'}}>
+        <MDBContainer style={{paddingTop: '7%'}}>
        {/* <h4 className="mt-5 mb-3">With Captions</h4> */}
         <MDBCarousel
           activeItem={1}
@@ -220,6 +221,7 @@ const Carousel = () => {
         </MDBCarousel>
       </MDBContainer>
     </Fade>
+    </div>
     )
 }
 export default Carousel;

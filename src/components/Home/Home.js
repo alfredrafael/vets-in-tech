@@ -28,7 +28,7 @@ class Home extends React.Component {
         <Testimonials />
         <Logos />
         <Rollcall />
-        
+        <Carousel />
       </div>     
     );
   }
