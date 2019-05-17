@@ -92,10 +92,10 @@ class Agradecimientos extends React.Component {
             </p>
           </Media>
           
-          <Row>
+           <Row>
                 <Col>
                     <Fade>
-                        <img src={groupPic} style={{maxWidth: '85%', marginTop: '5%', borderRadius: '25px'}}/>
+                        <img src={groupPic} style={{maxWidth: '85%', marginTop: '5%', marginBottom: '7%', borderRadius: '25px', }}/>
                     </Fade>
                 </Col>
           </Row>

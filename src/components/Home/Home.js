@@ -6,6 +6,7 @@ import Showcase from '../Showcase'
 import Agradecimientos from "../agradecimientos/Agradecimientos";
 import Rollcall from '../Rollcall/Rollcall';
 import Carousel from '../Carousel/Carousel';
+import Testimonials from '../Testimonials/Testimonials';
 
 
 
@@ -23,8 +24,8 @@ class Home extends React.Component {
         <Intro />
         <Showcase />
         <Agradecimientos />
+        <Testimonials />
         <Rollcall />
-        <Carousel />
         
       </div>     
     );

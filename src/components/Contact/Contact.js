@@ -12,7 +12,7 @@ class Contact extends React.Component {
     render() {
         return (
             <Route basename="/vets-in-tech/">
-            <div style={{marginTop: '10%'}}>
+            <div style={{marginTop: '15%'}}>
             <StudentModal />
             </div>
             <Testimonials />
