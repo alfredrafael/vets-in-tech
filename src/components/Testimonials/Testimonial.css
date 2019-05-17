@@ -12,10 +12,9 @@
 .blockquote {
     padding: 2%;
     font-style: italic;
-    line-height: 145%;
+    line-height: 200%;
     position: relative;
-    margin-top: 40px;
-    border: none;
+    margin-top: 20px;
 }
 
 .blockquote:before {
