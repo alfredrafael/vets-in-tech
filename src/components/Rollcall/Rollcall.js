@@ -20,6 +20,7 @@ import AirForceSeal from '../../assets/air-force-seal.png';
 import ArmySeal from '../../assets/army-seal.png';
 import NavySeal from '../../assets/navy-seal.png';
 import MarinesCorpsSeal from '../../assets/marine-corps-seal.png';
+import Fade from 'react-reveal/Fade';
 
 
 class Rollcall extends React.Component {
@@ -206,10 +207,12 @@ class Rollcall extends React.Component {
           md={Math.ceil(48 / this.state.cohort.length)}
           style={{ marginBottom: "3%" }}
         >
+
           <Card
             className="growEffect"
             onClick={() => this.triggermodal()}
           >
+          
             <CardImg
               top
               width="100%"
@@ -219,7 +222,8 @@ class Rollcall extends React.Component {
             />
             <CardBody>
               <CardTitle onClick={() => this.populateModal(student)}> {/* Extra fn declaration */}
-              <img src={student.branchSeal} style={{maxWidth: '25%', margin: '0 7% 0 -20%'}}></img> {student.name}
+              <img src={student.branchSeal} style={{maxWidth: '25%', margin: '0 7% 0 -20%'}}></img> 
+              <strong>{student.name}</strong>
               </CardTitle>
               <CardText>
                 {/* If there was aany CardText, it would be here! */}
@@ -288,13 +292,18 @@ class Rollcall extends React.Component {
   // alert(`THE STUDENT IS" ${JSON.stringify(this.state.clickedStudent)}`)
     
       return (
+        <Fade>
+
         <div className="rollcallSection">
-        <div className="sectionHeader">
-        Our cohort
+      <div className="sectionHeader">
+        
+          Our cohort
+        
       </div>
       <Container>
-        <Row>{studentIteration}</Row>
+            <Row>{studentIteration}</Row>
       </Container>
+
           <div>
             <Modal
               isOpen={this.state.modal}
@@ -316,8 +325,9 @@ class Rollcall extends React.Component {
               </ModalFooter>
             </Modal>
           </div>
-         
         </div>
+        </Fade>
+
       );
   }
 }

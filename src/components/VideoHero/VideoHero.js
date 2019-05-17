@@ -6,8 +6,9 @@ import styled from 'styled-components';
 import Fade from 'react-reveal/Fade';
 
 
+
 const MyButton = styled.button`
-background: ${props => props.ghost ? "transparent" : "#701ba19e"}
+background: ${props => props.ghost ? "transparent" : "#7000ff76"}
 font-size: 1em;
 margin: 1em;
 padding: 0.45em 3em;
@@ -15,7 +16,7 @@ border: .5px solid grey;
 border-radius: 10px;
 color: white;
 &:hover {
-    background: ${props => props.ghost ? '#6f1ba1': 'transparent'};
+    background: ${props => props.ghost ? '#701ba19e': 'transparent'};
     transition: .5s;
     text-decoration: none;
 } & a:hover {
@@ -77,6 +78,7 @@ class VideoHero extends React.Component {
             }}
           >
             <div style={{ height: "100vh" }} className="home-overlay-div">
+            
               <Jumbotron style={{ background: "transparent", marginTop: "30%"}}>
                 <h1 className="display-3">Vets In Tech. Learning. Together</h1>
                 <hr className="my-2" />
@@ -89,6 +91,7 @@ class VideoHero extends React.Component {
                   <MyButton ghost>Our Sponsors</MyButton>
                 </div>
               </Jumbotron>
+              
             </div>
           </div>
           </Fade>

@@ -12,8 +12,9 @@ class Showcase extends React.Component {
 
     render() {
         return (
-            <div className="photos-showcase">
             <Fade>
+            <div className="photos-showcase">
+            
 
             <ul className="photos-showcase clearfix" style={{marginBottom: '-9%', marginTop: '-9%'}}>
                 <li>
@@ -66,8 +67,8 @@ class Showcase extends React.Component {
                     </figure>
                 </li>
             </ul>
-            </Fade>
            </div>
+           </Fade>
         );
   }
 }

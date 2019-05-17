@@ -1,4 +1,5 @@
 import React from "react";
+import Carousel from '../Carousel/Carousel';
 import { Container, Row, Col, Media } from "reactstrap";
 import vitLogo from "../../assets/vetsInTechLogo.png";
 import gaLogo from "../../assets/GA-logo.png";
@@ -30,15 +31,18 @@ class Agradecimientos extends React.Component {
 
               <img
                 src={vitLogo}
-                style={{ maxWidth: "50%", marginBottom: "7%" }}
+                style={{ maxWidth: "70%", marginTop: "-5.5%" }}
               />
-              <Col caption>
-                <p style={{ fontSize: "150%" }}>KATHERINE WEBSTER</p>
-                <p style={{ marginTop: "-5%", fontSize: "150%" }}>
-                  CHRIS STARLING
-                </p>
-              </Col>
               </Fade>
+              <Col caption>
+                <Fade bottom>
+                  <p style={{ fontSize: "150%", marginTop: '2%' }}>KATHERINE WEBSTER</p>
+                  <p style={{ marginTop: "-5%", fontSize: "150%" }}>
+                    CHRIS STARLING
+                  </p>
+                </Fade>
+              </Col>
+              
 
             </Col>
             <Col xs="6" sm="4">
@@ -53,10 +57,12 @@ class Agradecimientos extends React.Component {
                 }}
               />
               <Col caption>
+              <Fade bottom>
                 <p style={{ fontSize: "150%" }}>JASON ROBINS</p>
                 <p style={{ marginTop: "-5%", fontSize: "150%" }}>
                   RANDY CRADER
                 </p>
+              </Fade>
               </Col>
               </Fade>
             </Col>
@@ -66,31 +72,34 @@ class Agradecimientos extends React.Component {
                 src={gaLogo}
                 style={{ maxWidth: "80%", marginBottom: "7%" }}
               />
+              </Fade>
               <Col caption>
+              <Fade bottom>
                 <p style={{ fontSize: "150%", marginBottom: "7%" }}>
                   NAIDA ROSENBERGER
                 </p>
                 <p style={{ marginTop: "-7%", fontSize: "150%" }}>LEON NOEL</p>
+                </Fade>
               </Col>
-              </Fade>
             </Col>
           </Row>
           <Media body>
             <p className="generalText" style={{ marginTop: "5%" }}>
-              To those who made this cohort possible: Thank you for providing us
+              Thank you for providing us
               with the opportunity of pursuing a new & rewarding civilian
               career. For the thoughfulness, investment and effort involved in
               making this opportunity possible: Thank you !
             </p>
           </Media>
+          <Carousel/>
+          {/*
           <Row>
                 <Col>
                     <Fade>
                         <img src={groupPic} style={{maxWidth: '85%', marginTop: '5%', borderRadius: '25px'}}/>
                     </Fade>
                 </Col>
-          </Row>
-
+          </Row> */}
         </Container>
       </div>
     );
