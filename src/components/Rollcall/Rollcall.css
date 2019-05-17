@@ -1,10 +1,13 @@
+.rollcallSection {
+  background: linear-gradient(white, #b300ff4d)
+}
+
 .sectionHeader {
     font-size: 450%; 
-    font-weight: 200; 
+    font-weight: 300; 
     padding-bottom: 4%; 
     padding-top: 4%;
     color: rgb(111, 27, 161);
-    background: linear-gradient(pink, white);
 }
 
 /*/////////////Grow on hover Effect////////////*/
@@ -93,7 +96,7 @@
   }
   
   .rightContent {
-    background: lightpink;
+    /* background: lightpink; */
     
     flex: 1 auto;
     -webkit-flex: 1 auto;

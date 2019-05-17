@@ -3,6 +3,8 @@ import './Contact.css';
 import StudentModal from '../StudentModal/StudentModal';
 import {Route} from 'react-router-dom';
 import Testimonials from '../Testimonials/Testimonials';
+import Logos from '../Logos/Logos';
+
 
 
 
@@ -13,9 +15,8 @@ class Contact extends React.Component {
         return (
             <Route basename="/vets-in-tech/">
             <div style={{marginTop: '15%'}}>
-            <StudentModal />
             </div>
-            <Testimonials />
+            <Logos />
             </Route>
         );
     }

@@ -7,6 +7,7 @@ import Agradecimientos from "../agradecimientos/Agradecimientos";
 import Rollcall from '../Rollcall/Rollcall';
 import Carousel from '../Carousel/Carousel';
 import Testimonials from '../Testimonials/Testimonials';
+import Logos from '../Logos/Logos';
 
 
 
@@ -25,6 +26,7 @@ class Home extends React.Component {
         <Showcase />
         <Agradecimientos />
         <Testimonials />
+        <Logos />
         <Rollcall />
         
       </div>     

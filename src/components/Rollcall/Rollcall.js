@@ -23,6 +23,10 @@ import MarinesCorpsSeal from '../../assets/marine-corps-seal.png';
 import Fade from 'react-reveal/Fade';
 
 
+const JulieLinkedin = () => {
+  <h1> Hello </h1>
+}
+
 class Rollcall extends React.Component {
   constructor(props) {
     super(props);
@@ -82,6 +86,7 @@ class Rollcall extends React.Component {
           id: 6,
           branchSeal: ArmySeal,
           status: "Veteran",
+          bio: "During his first deployment to Iraq, Wilson served as an Army officer under former National Security Advisor (then Colonel) H.R. McMaster, of the 3rd Armored Cavalry Regiment. Wilson returned to New England in 2009 to pursue his MBA at Boston College, and has spent the last seven years working at a major financial services firm in downtown Boston."
         },
         {
           name: "Kelly To",
