@@ -109,8 +109,8 @@ class AppNavbar extends React.Component {
                     to="sponsors"
                     spy={true}
                     smooth={true}
-                    offset={-70}
-                    duration={500}
+                    offset={-135}
+                    duration={800}
                     onSetActive={this.handleSetActive}
                   >
                     Sponsors
@@ -119,16 +119,14 @@ class AppNavbar extends React.Component {
               </NavItem>
               <NavItem>
                 <NavLink
-                  href="https://vetsintech-boston.netlify.com/"
-                  style={{ color: "white" }}
-                  target="_blank"
-                >
+                  style={{ color: "white" }} 
+                > {/* keeping the <NavLink/> to inherit the inherent CSS Rules */}
                   <Link
                     activeClass="active"
                     to="ourTeam"
                     spy={true}
                     smooth={true}
-                    offset={50}
+                    offset={-79}
                     duration={500}
                     onSetActive={this.handleSetActive}
                   >

@@ -13,7 +13,7 @@ class Agradecimientos extends React.Component {
     return (
       <div className="greetingsComponent" id="sponsors" style={{background: 'linear-gradient(white, pink)'}}>
         <Container>
-          <div style={{marginTop: '11%'}}>
+          <div style={{marginTop: '5%'}}>
             <h1 className='headerWithLineSponsors'
               style={{
                 textAlign: "center",

@@ -1,6 +1,6 @@
 import React from "react";
 //import myVideoBanner from "../../assets/GA-hero-clip-4.mp4";
-import {Link} from 'react-router-dom';
+import {Link} from 'react-scroll';
 import {Jumbotron} from "reactstrap";
 import styled from 'styled-components';
 import Fade from 'react-reveal/Fade';
@@ -84,11 +84,31 @@ class VideoHero extends React.Component {
                 <hr className="my-2" />
                 <div className="lead">
                   <MyButton>
-                    <Link to="/contact" style={{ color: "white" }}>
-                      Meet our Team
-                    </Link>
+                  <Link
+                  activeClass="active"
+                  to="ourTeam"
+                  spy={true}
+                  smooth={true}
+                  offset={-79}
+                  duration={800}
+                  onSetActive={this.handleSetActive}
+                >
+                  Our Team
+                </Link>
                   </MyButton>
-                  <MyButton ghost>Our Sponsors</MyButton>
+                  <MyButton ghost>
+                    <Link
+                    activeClass="active"
+                    to="sponsors"
+                    spy={true}
+                    smooth={true}
+                    offset={-135}
+                    duration={800}
+                    onSetActive={this.handleSetActive}
+                  >
+                  Our Sponsors
+                  </Link>
+                  </MyButton>
                 </div>
               </Jumbotron>
               
