@@ -10,9 +10,9 @@ import Fade from 'react-reveal/Fade';
 class Agradecimientos extends React.Component {
   render() {
     return (
-      <div className="greetingsComponent" style={{background: 'linear-gradient(white, pink)'}}>
+      <div className="greetingsComponent" id="sponsors" style={{background: 'linear-gradient(white, pink)'}}>
         <Container>
-          <div>
+          <div style={{marginTop: '11%'}}>
             <h1
               style={{
                 textAlign: "center",
@@ -91,15 +91,14 @@ class Agradecimientos extends React.Component {
               making this opportunity possible: Thank you !
             </p>
           </Media>
-          <Carousel/>
-          {/*
+          
           <Row>
                 <Col>
                     <Fade>
                         <img src={groupPic} style={{maxWidth: '85%', marginTop: '5%', borderRadius: '25px'}}/>
                     </Fade>
                 </Col>
-          </Row> */}
+          </Row>
         </Container>
       </div>
     );

@@ -292,10 +292,8 @@ class Rollcall extends React.Component {
   // alert(`THE STUDENT IS" ${JSON.stringify(this.state.clickedStudent)}`)
     
       return (
-        <Fade>
-
-        <div className="rollcallSection">
-      <div className="sectionHeader">
+      <div className="rollcallSection" id="ourTeam">
+        <div className="sectionHeader">
         
           Our cohort
         
@@ -326,7 +324,6 @@ class Rollcall extends React.Component {
             </Modal>
           </div>
         </div>
-        </Fade>
 
       );
   }
