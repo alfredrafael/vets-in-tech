@@ -13,7 +13,9 @@ class Intro extends React.Component {
           
            <Media heading>
            
-             <h1 style={{fontSize: '250%', fontWeight: '300', marginBottom: '4%', color: '#6f1ba1'}}>Who are we?</h1>
+             <h1 className="headerWithLineIntro" style={{fontSize: '250%', fontWeight: '300', marginBottom: '4%', color: '#6f1ba1'}}>
+              Who are we?
+             </h1>
            </Media>
            <Slide bottom>
 

@@ -6,6 +6,7 @@ import gaLogo from "../../assets/GA-logo.png";
 import dkLogo from "../../assets/draft-kings-logo.png";
 import groupPic from '../../assets/groupPic.jpg';
 import Fade from 'react-reveal/Fade';
+import './Agradecimientos.css';
 
 class Agradecimientos extends React.Component {
   render() {
@@ -13,14 +14,14 @@ class Agradecimientos extends React.Component {
       <div className="greetingsComponent" id="sponsors" style={{background: 'linear-gradient(white, pink)'}}>
         <Container>
           <div style={{marginTop: '11%'}}>
-            <h1
+            <h1 className='headerWithLineSponsors'
               style={{
                 textAlign: "center",
                 marginBottom: "7%",
                 marginTop: "5%",
                 fontSize: "350%",
                 fontWeight: "300",
-                color: "#6f1ba1"
+                color: "#6f1ba1",
               }}>
               Our sincere thanks to:
             </h1>

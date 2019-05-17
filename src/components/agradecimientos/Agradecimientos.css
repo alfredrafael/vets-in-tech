@@ -1,0 +1,18 @@
+.headerWithLineSponsors {
+    font-weight: 300;
+    font-size: 400%;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+.headerWithLineSponsors:after {
+    display: block;
+    height: 2px;
+    background-color: #6f1ba1;
+    content: " ";
+    width: 150px;
+    margin: 0 auto;
+    margin-top: 30px;
+}

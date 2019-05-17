@@ -10,3 +10,7 @@
     height: 10vh;
 }
 
+.navbar-toggler {
+    float: right;
+}
+

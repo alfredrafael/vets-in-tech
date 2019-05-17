@@ -97,7 +97,7 @@ class AppNavbar extends React.Component {
             </div>
  */}
           </NavbarBrand>
-          <NavbarToggler onClick={this.toggle} />
+          <NavbarToggler onClick={this.toggle} style={{position: 'absolute', marginLeft: '85%', overflow: 'visible'}}/>
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar style={{ marginRight: "5%" }}>
               <NavItem>
