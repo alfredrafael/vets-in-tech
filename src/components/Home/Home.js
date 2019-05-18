@@ -8,6 +8,7 @@ import Rollcall from '../Rollcall/Rollcall';
 import Carousel from '../Carousel/Carousel';
 import Testimonials from '../Testimonials/Testimonials';
 import Logos from '../Logos/Logos';
+import Instructors from "../Instructors/Instructors";
 
 
 
@@ -28,6 +29,7 @@ class Home extends React.Component {
         <Testimonials />
         <Logos />
         <Rollcall />
+        <Instructors/>
         <Carousel />
       </div>     
     );
