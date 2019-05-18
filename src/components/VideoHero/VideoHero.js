@@ -4,6 +4,7 @@ import {Link} from 'react-scroll';
 import {Jumbotron} from "reactstrap";
 import styled from 'styled-components';
 import Fade from 'react-reveal/Fade';
+import './VideoHero.css';
 
 
 
@@ -78,7 +79,7 @@ class VideoHero extends React.Component {
           }}
         >
           <div style={{ height: "100vh" }} className="home-overlay-div">
-            <Jumbotron style={{ background: "transparent", marginTop: "30%"}}>
+            <Jumbotron style={{ background: "transparent", marginTop: "30%"}} className='myJumbotron'>
               <h1 className="display-3">Vets In Tech. Learning. Together</h1>
               <hr className="my-2" />
               <div className="lead">
@@ -113,6 +114,9 @@ class VideoHero extends React.Component {
               </div>
             </Jumbotron>
           </div>
+          <div style={{ height: "100vh" }} className="home-overlay-div mobileOnly mobileJumbotronish">
+            <h1>Vets In Tech. Learning. Together</h1>
+          </div>
         </div>
         </Fade>
       </div>
@@ -121,7 +125,7 @@ class VideoHero extends React.Component {
 
   render() {
     return( 
-      <div>
+      <div className='videoDiv'>
           {this.video}
       </div>
       );

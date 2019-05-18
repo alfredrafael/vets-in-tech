@@ -64,7 +64,7 @@ class AppNavbar extends React.Component {
               }}
             />
 
-            <div style={{position: 'relative', marginLeft: '10%', marginTop: '1%'}}>
+            <div style={{position: 'relative', marginLeft: '10%', marginTop: '1%'}} className="newEnglandFirstClass">
               <div style={{
                    position: 'absolute',
                    marginTop: '0',
@@ -99,11 +99,11 @@ class AppNavbar extends React.Component {
  */}
           </NavbarBrand>
           <NavbarToggler 
+            className="navbar-toggler"
             onClick={this.toggle} 
             style={{position: 'absolute', 
-            marginLeft: '85%', 
+            marginLeft: '80%', 
             overflow: 'visible',
-            color: 'red'
         }}/>
 
           <Collapse isOpen={this.state.isOpen} navbar>

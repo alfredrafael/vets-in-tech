@@ -1,0 +1,64 @@
+/*iPhone 6/7/8*/
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (-webkit-device-pixel-ratio: 2) { 
+    .myJumbotron{
+        display: none;
+    }
+    .videoDiv {
+        margin-top: 18%;
+    }
+    .mobileJumbotronish h1{
+        font-size: 150%;
+        margin-top: -10%;
+        font-weight: bold;
+    }
+}
+
+
+
+
+
+/*iPhone XR*/
+@media only screen and (min-device-width : 414px) and (max-device-height : 896px) and (-webkit-device-pixel-ratio : 2) {
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*---LAPTOPS AND ABOVE---*/
+
+
+
+/* ----------- Non-Retina Screens ----------- */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+      
+    .mobileOnly {
+        display: none;
+    }
+}
+
+
+
+/* ----------- Retina Screens ----------- */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
+  
+    .mobileOnly {
+        display: none;
+    }
+}
