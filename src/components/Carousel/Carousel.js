@@ -10,7 +10,15 @@ const Carousel = () => {
     return(
       <div className='carouselDiv'>
       <Fade>
-        <MDBContainer style={{paddingTop: '7%'}}>
+      <h1 className='headerWithLineSponsors'
+      style={{
+        textAlign: "center",
+        fontSize: "450%",
+        fontWeight: "300",
+        color: "#6f1ba1"}}>
+        Gallery
+      </h1>
+        <MDBContainer style={{paddingTop: '3%'}}>
        {/* <h4 className="mt-5 mb-3">With Captions</h4> */}
         <MDBCarousel
           activeItem={1}
@@ -34,7 +42,7 @@ const Carousel = () => {
           </MDBView>
           <MDBCarouselCaption>
             {/*<h3 className="h3-responsive">Light mask</h3>*/}
-            <p>First text</p>
+            <p>Student and Instructors</p>
           </MDBCarouselCaption>
         </MDBCarouselItem>
 
@@ -50,7 +58,7 @@ const Carousel = () => {
               </MDBView>
               <MDBCarouselCaption>
                 {/*<h3 className="h3-responsive">Light mask</h3>*/}
-                <p>First text</p>
+                <p>Martin & Wilson working together</p>
               </MDBCarouselCaption>
         </MDBCarouselItem>
 
@@ -70,7 +78,7 @@ const Carousel = () => {
               </MDBView>
               <MDBCarouselCaption>
                 {/*<h3 className="h3-responsive">Light mask</h3>*/}
-                <p>Third text</p>
+                <p>Sara and Austin during a coding exercise</p>
               </MDBCarouselCaption>
             </MDBCarouselItem>
 
@@ -87,7 +95,7 @@ const Carousel = () => {
               </MDBView>
               <MDBCarouselCaption>
               {/*<h3 className="h3-responsive">Strong mask</h3>*/}
-                <p>Fourth text</p>
+                <p>Instructors were knowleadgeable, and so much fun!</p>
               </MDBCarouselCaption>
             </MDBCarouselItem>
 
@@ -104,7 +112,7 @@ const Carousel = () => {
               </MDBView>
               <MDBCarouselCaption>
                {/* <h3 className="h3-responsive">Slight mask</h3> */}
-                <p>Fifth text</p>
+                <p>Class discussions</p>
               </MDBCarouselCaption>
             </MDBCarouselItem>
 
@@ -122,7 +130,7 @@ const Carousel = () => {
             </MDBView>
             <MDBCarouselCaption>
              {/* <h3 className="h3-responsive">Slight mask</h3> */}
-              <p>Third text</p>
+              <p>Student-veterans learning how to code</p>
             </MDBCarouselCaption>
           </MDBCarouselItem>
 
@@ -139,8 +147,8 @@ const Carousel = () => {
                 <MDBMask overlay="black-light" />
               </MDBView>
               <MDBCarouselCaption>
-                <h3 className="h3-responsive">Sopot Beach</h3>
-                <p>Taken june 21th by @mattonit</p>
+          {/* <h3 className="h3-responsive"> Some dummy text</h3>  */}   
+                <p>Alfredo coding the prototype of this very website</p>
               </MDBCarouselCaption>
             </MDBCarouselItem>
             
@@ -159,7 +167,7 @@ const Carousel = () => {
             </MDBView>
             <MDBCarouselCaption>
             {/* <h3 className="h3-responsive">Slight mask</h3>  */} 
-              <p>Third text</p>
+              <p>Learning how to code</p>
             </MDBCarouselCaption>
           </MDBCarouselItem>
 
@@ -175,7 +183,7 @@ const Carousel = () => {
               </MDBView>
               <MDBCarouselCaption>
                 {/*<h3 className="h3-responsive">Light mask</h3>*/}
-                <p>First text</p>
+                <p>Everyday, a new challenge</p>
               </MDBCarouselCaption>
             </MDBCarouselItem>
 
@@ -191,7 +199,7 @@ const Carousel = () => {
               </MDBView>
               <MDBCarouselCaption>
                 {/*<h3 className="h3-responsive">Light mask</h3>*/}
-                <p>First text</p>
+                <p>The First Cohort of Vets In Teach, New England Chapter</p>
               </MDBCarouselCaption>
             </MDBCarouselItem>
            
@@ -209,7 +217,7 @@ const Carousel = () => {
             </MDBView>
             <MDBCarouselCaption>
               {/*<h3 className="h3-responsive">Light mask</h3>*/}
-              <p>Second text</p>
+              <p>Leon Noel teaching USMC Veteran, Phillip Sandberg</p>
             </MDBCarouselCaption>
           </MDBCarouselItem>
 
