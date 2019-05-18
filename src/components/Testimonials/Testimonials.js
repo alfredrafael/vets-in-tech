@@ -35,7 +35,7 @@ class Testimonials extends React.Component {
               confident about my skills as Leon and Will. I can't speak highly
               enough about our instructors.
               <cite className="cite">
-                <img src={"http://placekitten.com/300/300"} />
+                <img src={"https://i.imgur.com/IPSgYK9.jpg"} />
                 Drew Greene
               </cite>
             </blockquote>
@@ -51,7 +51,7 @@ class Testimonials extends React.Component {
               confident enough to show up to a company and market myself as a
               front-end web developer.
               <cite className="cite">
-                <img src={"http://placekitten.com/300/300"} />
+                <img src={"https://i.imgur.com/3xoQjkl.jpg"} />
                 Alfredo Rafael
               </cite>
             </blockquote>
@@ -67,7 +67,7 @@ class Testimonials extends React.Component {
               instructors who always took the time (in and out of class) to
               ensure every student understood the material.
               <cite className="cite">
-                <img src={"http://placekitten.com/300/300"} />
+                <img src={"https://i.imgur.com/NZAhDSw.jpg"} />
                 Vincent Bratica
               </cite>
             </blockquote>
