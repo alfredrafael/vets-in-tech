@@ -4,7 +4,8 @@ import StudentModal from '../StudentModal/StudentModal';
 import {Route} from 'react-router-dom';
 import Testimonials from '../Testimonials/Testimonials';
 import Logos from '../Logos/Logos';
-
+import Instrutors from '../Instructors/Instructors';
+import Instructors from '../Instructors/Instructors';
 
 
 
@@ -17,6 +18,7 @@ class Contact extends React.Component {
             <div style={{marginTop: '15%'}}>
             </div>
             <Logos />
+            <Instructors />
             </Route>
         );
     }
