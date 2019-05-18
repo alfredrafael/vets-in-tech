@@ -21,7 +21,7 @@ class Home extends React.Component {
   render() {
     return (
       
-      <div className="homeText">
+      <div className="homeStyles">
         <VideoHero />
         <Intro />
         <Showcase />
