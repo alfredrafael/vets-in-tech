@@ -26,49 +26,84 @@ color: white;
 
 
 class VideoHero extends React.Component {
-    constructor(props) {
-      super(props);
-      //  this.state = {};
-  
-      this.video = this.createVideoComponent(); // 1 "bindish" video compoenent
-    }
-  
-    createVideoProps() {
-      // 2- create function with object with video Props
-      return {
-        "data-video-id": "introVideo",
-        // 'src':'https://media.w3.org/2010/05/sintel/trailer.mp4', // Dummy video fed from the internet (not youtube, btw...)
-        // 'src': 'https://i.imgur.com/4fCj9Y9.mp4', // video source, but is not the one rendering here
-        controls: false,
-        muted: true,
-        "data-yes": true,
-        "data-no": false /*?*/,
-        loop: true,
-        "object-fit": "cover"
-      };
-    }
-  
-    createVideoComponent() {
-      // 3 re-assings the funtion to just 'videoProps'
-      const videoProps = this.createVideoProps();
-      return (
-        <div className="ui fluid image" style={{ position: "relative" }}>
-        <Fade>
-          
-  
+  constructor(props) {
+    super(props);
+    //  this.state = {};
 
-          </Fade>
+    this.video = this.createVideoComponent(); // 1 "bindish" video compoenent
+  }
+
+  createVideoProps() {
+    // 2- create function with object with video Props
+    return {
+      "data-video-id": "introVideo",
+      // 'src':'https://media.w3.org/2010/05/sintel/trailer.mp4', // Dummy video fed from the internet (not youtube, btw...)
+      // 'src': 'https://i.imgur.com/4fCj9Y9.mp4', // video source, but is not the one rendering here
+      controls: false,
+      muted: true,
+      "data-yes": true,
+      "data-no": false /*?*/,
+      loop: true,
+      "object-fit": "cover"
+    };
+  }
+
+  createVideoComponent() {
+    // 3 re-assings the funtion to just 'videoProps'
+    const videoProps = this.createVideoProps();
+    return (
+      <div className="ui fluid image" style={{ position: "relative" }}>
+      <Fade>
+        <video
+          {...videoProps}
+          // src={myVideoBanner}
+          src={'https://i.imgur.com/4fCj9Y9.mp4'}
+          data-test
+          autoPlay
+          style={{ width: "100%", objectFit: "cover" }}
+        />
+
+        <div
+          className="theOverlay"
+          style={{
+            position: "absolute",
+            bottom: 0,
+            width: "100%",
+            height: "110vh",
+            background: "rgba(28, 31, 39, 0.5)",
+            color: "white",
+            marginBottom: ".3%",
+            objectFit: "contain",
+            overflow: "hidden"
+          }}
+        >
+          <div style={{ height: "100vh" }} className="home-overlay-div">
+            <Jumbotron style={{ background: "transparent", marginTop: "30%"}}>
+              <h1 className="display-3">Vets In Tech. Learning. Together</h1>
+              <hr className="my-2" />
+              <div className="lead">
+                <MyButton>
+                  <Link to="/contact" style={{ color: "white" }}>
+                    Meet our Team
+                  </Link>
+                </MyButton>
+                <MyButton ghost>Our Sponsors</MyButton>
+              </div>
+            </Jumbotron>
+          </div>
         </div>
+        </Fade>
+      </div>
+    );
+  }
+
+  render() {
+    return( 
+      <div>
+          {this.video}
+      </div>
       );
-    }
-  
-    render() {
-      return( 
-        <div>
-            {this.video}
-        </div>
-        );
-    }
- }
+  }
+}
 
-  export default VideoHero;
+export default VideoHero;
