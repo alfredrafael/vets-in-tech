@@ -19,9 +19,70 @@
 /*iPhone 6/7/8*/
 @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (-webkit-device-pixel-ratio: 2) { 
 
-    /*////////////////////// NAV BAR //////////////////*/
     .newEnglandFirstClass {
         display: none;
     }
+
+    .mobileOnlyNavbar {
+        display: block;
+        margin-right: 17%;
+        margin-top: 1.5%;
+        font-size: 90%;
+        font-family: Stardos Stencil;
+    }
 }
 
+
+
+/*iPhone X*/
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 812px) 
+    and (-webkit-device-pixel-ratio : 3) {
+
+	.newEnglandFirstClass {
+        display: none;
+    }
+
+    .mobileOnlyNavbar {
+        display: block;
+        margin-right: 17%;
+        margin-top: 1.5%;
+        font-size: 90%;
+        font-family: Stardos Stencil;
+    }
+}
+
+
+
+
+
+/*---LAPTOPS AND ABOVE---*/
+
+
+
+/* ----------- Non-Retina Screens ----------- */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+      
+    .mobileOnlyNavbar {
+        display: none;
+    }
+    
+}
+
+
+
+/* ----------- Retina Screens ----------- */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
+  
+    .mobileOnlyNavbar {
+        display: none;
+    }
+}

@@ -56,6 +56,7 @@ class AppNavbar extends React.Component {
           >
             <img
               src={ourLogo}
+              className="ourLogo"
               style={{
                 maxWidth: "7%",
                 float: "left",
@@ -83,6 +84,10 @@ class AppNavbar extends React.Component {
                 }}>
                 <strong>First Class</strong>
               </div>
+            </div>
+
+            <div className='mobileOnlyNavbar'>       
+             <strong>First Class | New England</strong>
             </div>
             {/* 
             <div style={{width: '100%', display: 'table'}}>

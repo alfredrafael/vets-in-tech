@@ -14,15 +14,27 @@
 }
 
 
+/*iPhone X*/
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 812px) 
+    and (-webkit-device-pixel-ratio : 3) {
 
-
-
-/*iPhone XR*/
-@media only screen and (min-device-width : 414px) and (max-device-height : 896px) and (-webkit-device-pixel-ratio : 2) {
-	
-	
+	.newEnglandFirstClass {
+        display: none;
+    }
+    .myJumbotron{
+        display: none;
+    }
+    .videoDiv {
+        margin-top: 21%;
+    }
+    .mobileJumbotronish h1{
+        font-size: 150%;
+        margin-top: -10%;
+        font-weight: bold;
+    }
 }
-
 
 
 
