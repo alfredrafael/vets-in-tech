@@ -54,15 +54,6 @@ class VideoHero extends React.Component {
       return (
         <div className="ui fluid image" style={{ position: "relative" }}>
         <Fade>
-          <video
-            {...videoProps}
-            // src={myVideoBanner}
-            src={'https://i.imgur.com/4fCj9Y9.mp4'}
-            data-test
-            autoPlay
-            style={{ width: "100%", objectFit: "cover" }}
-            className="heroVideo"
-          />
           
   
 
