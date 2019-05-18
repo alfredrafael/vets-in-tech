@@ -83,11 +83,33 @@ class VideoHero extends React.Component {
               <hr className="my-2" />
               <div className="lead">
                 <MyButton>
-                  <Link to="/contact" style={{ color: "white" }}>
-                    Meet our Team
+                <Link style={{color: 'white'}}
+                activeClass="active"
+                to="ourTeam"
+                spy={true}
+                smooth={true}
+                offset={-2}
+                duration={1000}
+                onSetActive={this.handleSetActive}
+                  >
+                    Our Team
                   </Link>
                 </MyButton>
-                <MyButton ghost>Our Sponsors</MyButton>
+                <MyButton ghost>
+                <Link
+                activeClass="active"
+                to="sponsors"
+                spy={true}
+                smooth={true}
+                offset={-134}
+                duration={900}
+                onSetActive={this.handleSetActive}
+                >
+                Our Sponsors
+                  
+                </Link>
+                
+              </MyButton>
               </div>
             </Jumbotron>
           </div>
