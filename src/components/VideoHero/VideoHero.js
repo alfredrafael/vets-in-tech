@@ -61,59 +61,11 @@ class VideoHero extends React.Component {
             data-test
             autoPlay
             style={{ width: "100%", objectFit: "cover" }}
+            className="heroVideo"
           />
+          
   
-          <div
-            className="theOverlay"
-            style={{
-              position: "absolute",
-              bottom: 0,
-              width: "100%",
-              height: "110vh",
-              background: "rgba(28, 31, 39, 0.6)",
-              color: "white",
-              marginBottom: ".3%",
-              objectFit: "contain",
-              overflow: "hidden"
-            }}
-          >
-            <div style={{ height: "100vh" }} className="home-overlay-div">
-            
-              <Jumbotron style={{ background: "transparent", marginTop: "30%"}}>
-                <h1 className="display-3">Vets In Tech. Learning. Together</h1>
-                <hr className="my-2" />
-                <div className="lead">
-                  <MyButton>
-                  <Link
-                  activeClass="active"
-                  to="ourTeam"
-                  spy={true}
-                  smooth={true}
-                  offset={-79}
-                  duration={800}
-                  onSetActive={this.handleSetActive}
-                >
-                  Our Team
-                </Link>
-                  </MyButton>
-                  <MyButton ghost>
-                    <Link
-                    activeClass="active"
-                    to="sponsors"
-                    spy={true}
-                    smooth={true}
-                    offset={-135}
-                    duration={800}
-                    onSetActive={this.handleSetActive}
-                  >
-                  Our Sponsors
-                  </Link>
-                  </MyButton>
-                </div>
-              </Jumbotron>
-              
-            </div>
-          </div>
+
           </Fade>
         </div>
       );

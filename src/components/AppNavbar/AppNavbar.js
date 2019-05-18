@@ -35,7 +35,7 @@ class AppNavbar extends React.Component {
 
   render() {
     return (
-      <div className="navBarText">
+      <div className="navbarWrapper">
         <Navbar
           sticky="top"
           className="navbarStyle container-fluid"
@@ -50,7 +50,8 @@ class AppNavbar extends React.Component {
           bg=""
         >
           <NavbarBrand
-            style={{ marginLeft: "5%" }}
+            style={{ marginLeft: "5%",
+           }}
             href="https://alfredrafael.github.io/vets-in-tech/"
           >
             <img
@@ -97,7 +98,14 @@ class AppNavbar extends React.Component {
             </div>
  */}
           </NavbarBrand>
-          <NavbarToggler onClick={this.toggle} style={{position: 'absolute', marginLeft: '85%', overflow: 'visible'}}/>
+          <NavbarToggler 
+            onClick={this.toggle} 
+            style={{position: 'absolute', 
+            marginLeft: '85%', 
+            overflow: 'visible',
+            color: 'red'
+        }}/>
+
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar style={{ marginRight: "5%" }}>
               <NavItem>
