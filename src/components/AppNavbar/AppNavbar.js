@@ -35,7 +35,7 @@ class AppNavbar extends React.Component {
 
   render() {
     return (
-      <div className="navbarWrapper">
+      <div className="navbarWrapper" style={{zIndex: '1'}}>
         <Navbar
           sticky="top"
           className="navbarStyle container-fluid"
@@ -117,8 +117,8 @@ class AppNavbar extends React.Component {
                     to="sponsors"
                     spy={true}
                     smooth={true}
-                    offset={-135}
-                    duration={800}
+                    offset={-134}
+                    duration={900}
                     onSetActive={this.handleSetActive}
                   >
                     Sponsors
@@ -134,8 +134,8 @@ class AppNavbar extends React.Component {
                     to="ourTeam"
                     spy={true}
                     smooth={true}
-                    offset={-79}
-                    duration={500}
+                    offset={-2}
+                    duration={900}
                     onSetActive={this.handleSetActive}
                   >
                     Our Team
