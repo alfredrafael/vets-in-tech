@@ -45,8 +45,7 @@ class VideoHero extends React.Component {
       "data-yes": true,
       "data-no": false /*?*/,
       loop: true,
-      "object-fit": "cover",
-      "autoplay": "true"
+      "object-fit": "cover"
     };
   }
 
