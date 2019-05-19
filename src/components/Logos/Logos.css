@@ -1,6 +1,95 @@
 /*/////////////////// MEDIA QUERIES START /////////////////////////////////*/
 
 
+/*Galaxy 5s*/
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
+	
+  .overarchingRow {
+    background: linear-gradient(#7000ff76, white) !important;
+    padding: 5% 3% 0 3%;
+  }
+
+  .logosInDesktopSizes {
+      display: none;
+  }
+
+  .overarchingRow {
+      margin-top: 1%;
+  }
+
+  .logosInMobile .vitLogoMobile {
+    display: none;
+  }
+
+  .logosInMobile .USFlagMobile {
+    max-width: 100% !important
+  }
+
+  .logosInMobile .proudToServeLogoMobile {
+    display: none;
+  }
+
+}
+
+/*Samsung Galaxy S9 Media Queries (In terms of Mobile only)*/
+
+@media only screen and (min-width: 360px) and (max-width: 767px) {
+   
+  .overarchingRow {
+    background: linear-gradient(#7000ff76, white) !important;
+    padding: 5% 3% 0 3%;
+  }
+
+  .logosInDesktopSizes {
+      display: none;
+  }
+
+  .overarchingRow {
+      margin-top: 1%;
+  }
+
+  .logosInMobile .vitLogoMobile {
+    display: none;
+  }
+
+  .logosInMobile .USFlagMobile {
+    max-width: 100% !important
+  }
+
+  .logosInMobile .proudToServeLogoMobile {
+    display: none;
+  }
+}
+
+/*iPhone XR*/
+@media only screen and (min-device-width : 414px) and (max-device-height : 896px) and (-webkit-device-pixel-ratio : 2) {
+	
+  .overarchingRow {
+    background: linear-gradient(#7000ff76, white) !important;
+    padding: 5% 3% 0 3%;
+  }
+
+  .logosInDesktopSizes {
+      display: none;
+  }
+
+  .overarchingRow {
+      margin-top: 1%;
+  }
+
+  .logosInMobile .vitLogoMobile {
+    display: none;
+  }
+
+  .logosInMobile .USFlagMobile {
+    max-width: 100% !important
+  }
+
+  .logosInMobile .proudToServeLogoMobile {
+    display: none;
+  }
+}
+
 /*iPhone 5*/
 @media (device-height : 568px) 
    and (device-width : 320px) 

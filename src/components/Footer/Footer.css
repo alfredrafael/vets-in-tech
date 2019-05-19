@@ -82,29 +82,210 @@
     transition: .3s;
 }
 
+.rightsReservedAndPipe {
+    color: rgba(247, 245, 245, 0.7);
+}
+
 /* ///////////////////////MEDIA QUERIES START//////////////////////////////// */
 
 
 
 /* ///////////////////////MEDIA QUERIES START//////////////////////////////// */
+
+
+/*Galaxy 5s*/
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
+	.footer-nav {
+        font-size: 75%;
+        font-weight: bold;
+        padding-top: 7%;
+    }
+
+    .footer-nav li {
+        margin-bottom: 15%;
+    }
+
+    .rightsReservedAndPipe {
+        display: none;
+    }
+
+    .fa-twitter-square {
+        margin-right: 12px;
+    }
+
+    .signature img {
+        min-width: 20%;
+    }
+
+    .signature {
+        font-size: 80%;
+        margin-left: 3%;
+
+    }
+
+}
+
+/*Samsung Galaxy S9 Media Queries (In terms of Mobile only)*/
+
+@media only screen and (min-width: 360px) and (max-width: 767px) {
+    .footer-nav {
+        font-size: 75%;
+        font-weight: bold;
+        padding-top: 7%;
+    }
+
+    .footer-nav li {
+        margin-bottom: 15%;
+    }
+
+    .rightsReservedAndPipe {
+        display: none;
+    }
+
+    .fa-twitter-square {
+        margin-right: 12px;
+    }
+
+    .signature img {
+        min-width: 20%;
+    }
+
+    .signature {
+        font-size: 80%;
+        margin-left: 3%;
+
+    }
+}
+
+/*iPhone XR*/
+@media only screen and (min-device-width : 414px) and (max-device-height : 896px) and (-webkit-device-pixel-ratio : 2) {
+	.footer-nav {
+        font-size: 75%;
+        font-weight: bold;
+        padding-top: 7%;
+    }
+
+    .footer-nav li {
+        margin-bottom: 15%;
+    }
+
+    .rightsReservedAndPipe {
+        display: none;
+    }
+
+    .fa-twitter-square {
+        margin-right: 12px;
+    }
+
+    .signature img {
+        min-width: 20%;
+    }
+
+    .signature {
+        font-size: 80%;
+        margin-left: 3%;
+
+    }
+}
 
 /*iPhone 5*/
 @media (device-height : 568px) 
    and (device-width : 320px) 
    and (-webkit-min-device-pixel-ratio: 2) {
-	
+
+    .footer-nav {
+        font-size: 55%;
+        font-weight: bold;
+        padding-top: 12%;
+    }
+
+    .footer-nav li {
+        margin-bottom: 25%;
+    }
+
+    
+    .rightsReservedAndPipe {
+        display: none;
+    }
+
+    .fa-twitter-square {
+        margin-right: 12px;
+    }
+
+    .signature img {
+        min-width: 20%;
+    }
+
+    .signature {
+        font-size: 80%;
+        margin-left: 5%;
+    }	
 }
 
 /*iPhone 6/7/8*/
 @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (-webkit-device-pixel-ratio: 2) { 
 
+    .footer-nav {
+        font-size: 75%;
+        font-weight: bold;
+        padding-top: 7%;
+    }
 
+    .footer-nav li {
+        margin-bottom: 15%;
+    }
+
+    .rightsReservedAndPipe {
+        display: none;
+    }
+
+    .fa-twitter-square {
+        margin-right: 5px;
+    }
+
+    .signature img {
+        min-width: 20%;
+    }
+
+    .signature {
+        font-size: 80%;
+        margin-left: 3%;
+
+    }
 }
+
 
 /*iPhone 6+/7+/8+ */
 @media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (-webkit-device-pixel-ratio: 3) { 
     
-    
+    .footer-nav {
+        font-size: 75%;
+        font-weight: bold;
+        padding-top: 7%;
+    }
+
+    .footer-nav li {
+        margin-bottom: 15%;
+    }
+
+    .rightsReservedAndPipe {
+        display: none;
+    }
+
+    .fa-twitter-square {
+        margin-right: 12px;
+    }
+
+    .signature img {
+        min-width: 20%;
+    }
+
+    .signature {
+        font-size: 80%;
+        margin-left: 3%;
+
+    }
+
 }
 
 
@@ -114,9 +295,33 @@
     and (device-height : 812px) 
     and (-webkit-device-pixel-ratio : 3) {
 
-
-     
-	
+        .footer-nav {
+            font-size: 75%;
+            font-weight: bold;
+            padding-top: 7%;
+        }
+    
+        .footer-nav li {
+            margin-bottom: 15%;
+        }
+    
+        .rightsReservedAndPipe {
+            display: none;
+        }
+    
+        .fa-twitter-square {
+            margin-right: 12px;
+        }
+    
+        .signature img {
+            min-width: 20%;
+        }
+    
+        .signature {
+            font-size: 80%;
+            margin-left: 3%;
+    
+        }
 }
 
 

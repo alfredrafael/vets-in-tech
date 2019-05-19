@@ -18,9 +18,9 @@ class Footer extends React.Component {
             <Row>
                 <Col>
                     <ul className="footer-nav">
-                        <li><a href="http://about.draftkings.com/tech-for-heroes/" target="_blank">Draft Kings |</a></li>
-                        <li><a href="https://vetsintech.co/" target="_blank">Vets In Teach |</a></li>
-                        <li><a href="https://generalassemb.ly/locations/boston" target="_blank">General Assembly</a></li>
+                        <li><a href="http://about.draftkings.com/tech-for-heroes/" target="_blank">Draft Kings </a><span className="rightsReservedAndPipe">|</span></li>
+                        <li><a href="https://vetsintech.co/" target="_blank">Vets In Teach </a><span className="rightsReservedAndPipe">|</span></li>
+                        <li><a href="https://generalassemb.ly/locations/boston" target="_blank">General Assembly </a><span className="rightsReservedAndPipe">|</span></li>
                     </ul>
                 </Col>
                 <Col>
@@ -34,7 +34,7 @@ class Footer extends React.Component {
             </Row>
             <Row>
                 <p className='signature'>
-                    Copyright &copy; {currentYear} by &nbsp; <a href="https://alfredorafael.com/"><img src="https://i.imgur.com/6BvcC6F.png" style={{maxWidth: '12%'}}/></a> &nbsp; .All rights reserved.
+                    Copyright &copy; {currentYear} by &nbsp; <a href="https://alfredorafael.com/"><img src="https://i.imgur.com/6BvcC6F.png" style={{maxWidth: '12%'}}/></a> &nbsp; <span className='rightsReservedAndPipe'>.All rights reserved.</span>
                 </p>
             </Row>
 

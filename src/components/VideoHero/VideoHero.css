@@ -1,6 +1,51 @@
 /*/////////////////////////////////////////////// MEDIA QUERIES START //////////////////////////////////////////////*/
 
+/*Galaxy 5s*/
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
+	.myJumbotron{
+        display: none;
+    }
+    .videoDiv {
+        margin-top: 18%;
+    }
+    .mobileJumbotronish h1{
+        font-size: 150%;
+        margin-top: -10%;
+        font-weight: bold;
+    }
 
+}
+
+/*Samsung Galaxy S9 Media Queries (In terms of Mobile only)*/
+
+@media only screen and (min-width: 360px) and (max-width: 767px) {
+    .myJumbotron{
+        display: none;
+    }
+    .videoDiv {
+        margin-top: 21%;
+    }
+    .mobileJumbotronish h1{
+        font-size: 150%;
+        margin-top: -10%;
+        font-weight: bold;
+    }
+}
+
+/*iPhone XR*/
+@media only screen and (min-device-width : 414px) and (max-device-height : 896px) and (-webkit-device-pixel-ratio : 2) {
+	.myJumbotron{
+        display: none;
+    }
+    .videoDiv {
+        margin-top: 18%;
+    }
+    .mobileJumbotronish h1{
+        font-size: 150%;
+        margin-top: -10%;
+        font-weight: bold;
+    }
+}
 /*iPhone 5*/
 @media (device-height : 568px) 
    and (device-width : 320px) 
