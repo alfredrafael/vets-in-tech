@@ -26,3 +26,19 @@
     margin: 0 auto;
     margin-top: 30px;
 }
+
+
+/*iPhone 6/7/8*/
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (-webkit-device-pixel-ratio: 2) { 
+
+    .introHeaderMobile {
+            font-size: 150% !important;
+        }
+
+    .generalTextMobile {
+            font-size: 135% !important;
+    }
+}
+
+
+

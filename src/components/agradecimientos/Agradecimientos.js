@@ -26,7 +26,7 @@ class Agradecimientos extends React.Component {
               Our sincere thanks to:
             </h1>
           </div>
-          <Row>
+          <Row className='sponsorsDesktopAndHigherWidths'>
             <Col xs="6" sm="4">
             <Fade top>
 
@@ -84,8 +84,63 @@ class Agradecimientos extends React.Component {
               </Col>
             </Col>
           </Row>
+
+         {/* ///////////////////////////////////////// MOBILE ONLY ///////////////////////////////////////////// */}
+
+
+          <Row className='sponsorsMobileOnly'>
+            <Col xs="6" sm="4">
+            <Fade top>
+
+              <img
+                src={vitLogo}
+                style={{ maxWidth: "70%", marginTop: "-5.5%", marginBottom: '5%'}}
+              />
+              </Fade>
+              <Col caption>
+                <Fade bottom>
+                  <p style={{ fontSize: "150%", marginTop: '2%' }}>CHRIS STARLING</p>
+                  <p style={{ marginTop: "-5%", fontSize: "150%" }}>
+                  KATHERINE WEBSTER
+                  </p>
+                </Fade>
+              </Col>
+              
+
+            </Col>
+            <Col xs="6" sm="4">
+            <Fade top>
+              <img
+                src={dkLogo}
+                style={{
+                  maxWidth: "70%",
+                  marginTop: "-10%",
+                  marginLeft: "-10%",
+                  marginBottom: "7%",
+                  marginBottom: '11%'
+                  
+                }}
+              />
+              <Col caption>
+              <Fade bottom>
+                <p style={{ fontSize: "150%" }}>JASON ROBINS</p>
+                <p style={{ marginTop: "-5%", fontSize: "150%" }}>
+                  RANDY CRADER
+                </p>
+              </Fade>
+              </Col>
+              </Fade>
+            </Col>
+           
+          </Row>
+
+
+        {/* ///////////////////////////////////////// MOBILE ONLY ENDS ///////////////////////////////////////////// */}
+
+
+
           <Media body>
-            <Row className="generalText" style={{ marginTop: "5%", marginBottom: '-1%', height: '30vh', fontWeight: '300', overflowX: 'hidden'}}>
+            <Row className="generalText thankYouTextMobile" style={{ marginTop: "5%", marginBottom: '-1%', height: '30vh', fontWeight: '300', overflowX: 'hidden'}}>
               Thank you for providing us
               with the opportunity of pursuing a new & rewarding civilian
               career. For the thoughfulness, investment and effort involved in

@@ -16,3 +16,87 @@
     margin: 0 auto;
     margin-top: 30px;
 }
+
+
+
+/*iPhone 6/7/8*/
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (-webkit-device-pixel-ratio: 2) { 
+
+   .headerWithLineSponsors {
+       font-size: 205% !important;
+   }
+
+    .headerWithLineSponsors:after {
+        display: block;
+        height: 2px;
+        background-color: #6f1ba1;
+        content: " ";
+        width: 150px;
+        margin: 0 auto;
+        margin-top: 15px;
+    }
+
+    .sponsorsDesktopAndHigherWidths {
+        display: none !important;
+    }
+
+    .sponsorsMobileOnly {
+        margin-top: 15%;
+    }
+
+    .sponsorsMobileOnly p {
+        font-size: 75% !important;
+        font-weight: bold;
+    }
+
+    .thankYouTextMobile {
+        font-size: 150% !important;
+    }
+
+    .thankYouTextMobile:after {
+            display: block;
+            height: 2px;
+            background-color: #6f1ba1;
+            content: " ";
+            width: 150px;
+            margin: 0 auto;
+            margin-top: 15px;
+    }
+
+    .greetingsComponent {
+        background: linear-gradient(white, #7000ff76)!important
+    }
+
+
+    .thankYouTextMobile {
+         height: 35vh !important;
+}
+}
+
+
+/*---LAPTOPS AND ABOVE---*/
+
+/* ----------- Non-Retina Screens ----------- */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+
+    .sponsorsMobileOnly {
+        display: none !important;
+    }
+}
+
+/* ----------- Retina Screens ----------- */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
+
+    .sponsorsMobileOnly {
+        display: none !important;
+    }
+
+}
+

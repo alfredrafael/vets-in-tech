@@ -1,4 +1,4 @@
-/*iPhone 6/7/8*/
+/*/////////////// iPhone 6/7/8 ///////////////*/
 @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (-webkit-device-pixel-ratio: 2) { 
     .myJumbotron{
         display: none;
@@ -14,7 +14,10 @@
 }
 
 
-/*iPhone X*/
+
+
+
+/*/////////////////// iPhone X ///////////////*/
 @media only screen 
     and (device-width : 375px) 
     and (device-height : 812px) 

@@ -23,10 +23,6 @@ import MarinesCorpsSeal from '../../assets/marine-corps-seal.png';
 import Fade from 'react-reveal/Fade';
 
 
-const JulieLinkedin = () => {
-  <h1> Hello </h1>
-}
-
 class Rollcall extends React.Component {
   constructor(props) {
     super(props);
@@ -214,7 +210,7 @@ class Rollcall extends React.Component {
         >
 
           <Card
-            className="growEffect"
+            className="growEffect studentIterationCards"
             onClick={() => this.triggermodal()}
           >
           
@@ -235,7 +231,45 @@ class Rollcall extends React.Component {
               </CardText>
             </CardBody>
           </Card>
+
+          {/* //////////////////////////MOBILE ONLY///////////////////////////// */}
+          <Container>
+          <Row>
+          <Col
+          key={student.id}
+          xs="12"
+          style={{ marginBottom: "3%", display: 'inline' }}
+        >
+
+          <Card
+            className="mobileStudentRows"
+            onClick={() => this.triggermodal()}
+            style={{maxWidth: '100%'}}
+          >
+          
+            <CardImg
+              top
+              width="100%"
+              src={student.photo}
+              alt="Student image"
+              onClick={() => this.populateModal(student)}
+            />
+            <CardBody>
+              <CardTitle onClick={() => this.populateModal(student)}> {/* Extra fn declaration */}
+              <img src={student.branchSeal} style={{maxWidth: '25%', margin: '0 7% 0 -20%'}}></img> 
+              <strong>{student.name}</strong>
+              </CardTitle>
+              <CardText>
+                {/* If there was aany CardText, it would be here! */}
+              </CardText>
+            </CardBody>
+          </Card>
+          
         </Col>
+        </Row>
+        </Container>
+        {/* ///////////////////////////////////////////////////////// MOBILE ONLY ENDS ////////////////////////////////////////// */}
+        </Col>        
       );
     });
 
