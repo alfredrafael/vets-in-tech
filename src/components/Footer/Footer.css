@@ -16,10 +16,10 @@
 }
 
 
-.row p {
-    color: #888;
+.signature {
+    color: rgba(247, 245, 245, 0.7);
     text-align: center;
-    margin: 2% auto;
+    margin: 3% auto -2%;
 }
 
 .footer-nav li,
