@@ -1,3 +1,85 @@
-.navBarText {
-    color: blue;
+.footerDiv{
+    background:linear-gradient(rgba(103, 29, 164, 0.954), rgb(52, 0, 155));
+    padding: 5%;
+    font-size: 150%;
 } 
+
+
+.footer-nav {
+    list-style: none;
+    float: left;
+}
+
+.social-links {
+    list-style: none;
+    float: right;
+}
+
+
+.row p {
+    color: #888;
+    text-align: center;
+    margin: 2% auto;
+}
+
+.footer-nav li,
+.social-links li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.footer-nav li:last-child,
+.social-links li:last-child {
+    margin-right: 0;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited, 
+.social-links li a:link,
+.social-links li a:visited {
+    text-decoration: none;
+    border: 0;
+    color: rgba(247, 245, 245, 0.7);
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+}
+
+.footer-nav li a:hover,
+.footer-nav li a:active {
+    color: white;
+}
+
+.social-links li a:link,
+.social-links li a:visited {
+    font-size: 160%;
+    margin: 25%
+}
+
+.ion-social-facebook,
+.ion-social-twitter,
+.ion-social-googleplus,
+.ion-social-instagram {
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+}
+
+.fa-facebook-square:hover {
+    color: #3e71df;
+    transition: .3s;
+}
+
+.fa-twitter-square:hover {
+    color: #36bced;
+    transition: .5s;
+}
+
+.ion-social-googleplus:hover {
+    color: #dd4b39;
+}
+
+.fa-linkedin:hover {
+    color: #4c97a4;
+    transition: .3s;
+
+}
+
