@@ -31,16 +31,16 @@ class Logos extends React.Component {
            <Container className='logosInMobile'>
            <Row>
 
-            <Col>
+            <Col className="vitLogoMobile">
                 <img src={"https://i.imgur.com/p9LW7uJ.png"} alt="class logo" style={{maxWidth: '35%', float: 'left'}}></img> {/* Vit Logo */}
             </Col>
 
                             
-            <Col style={{ marginRight: '1%'}}>
+            <Col className="USFlagMobile" style={{ marginRight: '1%'}}>
                 <img src={"https://i.imgur.com/sF5dyMz.png"} style={{maxWidth: '70%'}}/> {/* US Flag */}
             </Col>
       
-            <Col>
+            <Col className="proudToServeLogoMobile">
                 <img src={'https://i.imgur.com/NiW2aS9.png'} style={{maxWidth: '61%', float: 'right'}}/> {/* Proud to serve */}
             </Col>
 

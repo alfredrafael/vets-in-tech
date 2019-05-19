@@ -18,6 +18,64 @@
 }
 
 
+/* ///////////////////////MEDIA QUERIES START//////////////////////////////// */
+
+/*iPhone 5*/
+@media (device-height : 568px) 
+   and (device-width : 320px) 
+   and (-webkit-min-device-pixel-ratio: 2) {
+
+    .headerWithLineSponsors {
+       font-size: 155% !important;
+   }
+
+    .headerWithLineSponsors:after {
+        display: block;
+        height: 2px;
+        background-color: #6f1ba1;
+        content: " ";
+        width: 150px;
+        margin: 0 auto;
+        margin-top: 15px;
+    }
+
+    .sponsorsDesktopAndHigherWidths {
+        display: none !important;
+    }
+
+    .sponsorsMobileOnly {
+        margin-top: 15%;
+    }
+
+    .sponsorsMobileOnly p {
+        font-size: 60% !important;
+        font-weight: bold;
+    }
+
+    .thankYouTextMobile {
+        font-size: 150% !important;
+    }
+
+    .thankYouTextMobile:after {
+            display: block;
+            height: 2px;
+            background-color: #6f1ba1;
+            content: " ";
+            width: 150px;
+            margin: 0 auto;
+            margin-top: 15px;
+    }
+
+    .greetingsComponent {
+        background: linear-gradient(white, #7000ff76)!important
+    }
+
+
+    .thankYouTextMobile {
+         height: 55vh !important;
+    }
+	
+}
 
 /*iPhone 6/7/8*/
 @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (-webkit-device-pixel-ratio: 2) { 
@@ -70,8 +128,125 @@
 
     .thankYouTextMobile {
          height: 35vh !important;
+    }
 }
+
+/*iPhone 6+/7+/8+ */
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (-webkit-device-pixel-ratio: 3) { 
+    
+    
+   .headerWithLineSponsors {
+    font-size: 205% !important;
+    }
+
+    .headerWithLineSponsors:after {
+        display: block;
+        height: 2px;
+        background-color: #6f1ba1;
+        content: " ";
+        width: 150px;
+        margin: 0 auto;
+        margin-top: 15px;
+    }
+
+    .sponsorsDesktopAndHigherWidths {
+        display: none !important;
+    }
+
+    .sponsorsMobileOnly {
+        margin-top: 15%;
+    }
+
+    .sponsorsMobileOnly p {
+        font-size: 75% !important;
+        font-weight: bold;
+    }
+
+    .thankYouTextMobile {
+        font-size: 150% !important;
+    }
+
+    .thankYouTextMobile:after {
+            display: block;
+            height: 2px;
+            background-color: #6f1ba1;
+            content: " ";
+            width: 150px;
+            margin: 0 auto;
+            margin-top: 15px;
+    }
+
+    .greetingsComponent {
+        background: linear-gradient(white, #7000ff76)!important
+    }
+
+
+    .thankYouTextMobile {
+        height: 35vh !important;
+    }
 }
+
+
+/*iPhone X*/
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 812px) 
+    and (-webkit-device-pixel-ratio : 3) {
+
+
+     
+   .headerWithLineSponsors {
+    font-size: 205% !important;
+    }
+
+    .headerWithLineSponsors:after {
+        display: block;
+        height: 2px;
+        background-color: #6f1ba1;
+        content: " ";
+        width: 150px;
+        margin: 0 auto;
+        margin-top: 15px;
+    }
+
+    .sponsorsDesktopAndHigherWidths {
+        display: none !important;
+    }
+
+    .sponsorsMobileOnly {
+        margin-top: 15%;
+    }
+
+    .sponsorsMobileOnly p {
+        font-size: 75% !important;
+        font-weight: bold;
+    }
+
+    .thankYouTextMobile {
+        font-size: 150% !important;
+    }
+
+    .thankYouTextMobile:after {
+            display: block;
+            height: 2px;
+            background-color: #6f1ba1;
+            content: " ";
+            width: 150px;
+            margin: 0 auto;
+            margin-top: 15px;
+    }
+
+    .greetingsComponent {
+        background: linear-gradient(white, #7000ff76)!important
+    }
+
+
+    .thankYouTextMobile {
+        height: 35vh !important;
+    }
+	
+}
+
 
 
 /*---LAPTOPS AND ABOVE---*/

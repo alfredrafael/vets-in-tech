@@ -1,6 +1,37 @@
-/*////////////////////////////////////////////////////*/
+/*/////////////////// MEDIA QUERIES START /////////////////////////////////*/
 
 
+/*iPhone 5*/
+@media (device-height : 568px) 
+   and (device-width : 320px) 
+   and (-webkit-min-device-pixel-ratio: 2) {
+
+    .overarchingRow {
+      background: linear-gradient(#7000ff76, white) !important;
+      padding: 5% 3% 0 3%;
+    }
+
+    .logosInDesktopSizes {
+        display: none;
+    }
+
+    .overarchingRow {
+        margin-top: 1%;
+    }
+
+    .logosInMobile .vitLogoMobile {
+      display: none;
+    }
+
+    .logosInMobile .USFlagMobile {
+      max-width: 100% !important
+    }
+
+    .logosInMobile .proudToServeLogoMobile {
+      display: none;
+    }
+	
+}
 /*iPhone 6/7/8*/
 @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (-webkit-device-pixel-ratio: 2) {
 
@@ -17,8 +48,119 @@
       margin-top: 1%;
   }
 
-  
+  .logosInMobile .vitLogoMobile {
+    display: none;
+  }
+
+  .logosInMobile .USFlagMobile {
+    max-width: 100% !important
+  }
+
+  .logosInMobile .proudToServeLogoMobile {
+    display: none;
+  }
+
 }
+
+/*iPhone 6+/7+/8+ */
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (-webkit-device-pixel-ratio: 3) { 
+  
+  .overarchingRow {
+    background: linear-gradient(#7000ff76, white) !important;
+    padding: 5% 3% 0 3%;
+  }
+
+  .logosInDesktopSizes {
+      display: none;
+  }
+
+  .overarchingRow {
+      margin-top: 1%;
+  }
+
+  .logosInMobile .vitLogoMobile {
+    display: none;
+  }
+
+  .logosInMobile .USFlagMobile {
+    max-width: 100% !important
+  }
+
+  .logosInMobile .proudToServeLogoMobile {
+    display: none;
+  }
+
+}
+
+/*iPhone X*/
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 812px) 
+    and (-webkit-device-pixel-ratio : 3) {
+
+      .overarchingRow {
+        background: linear-gradient(#7000ff76, white) !important;
+        padding: 5% 3% 0 3%;
+      }
+    
+      .logosInDesktopSizes {
+          display: none;
+      }
+    
+      .overarchingRow {
+          margin-top: 1%;
+      }
+
+      .logosInMobile .vitLogoMobile {
+        display: none;
+      }
+
+      .logosInMobile .USFlagMobile {
+        max-width: 100% !important
+      }
+
+      .logosInMobile .proudToServeLogoMobile {
+        display: none;
+      }
+}
+
+
+
+
+/*iPhone XR*/
+@media only screen and (min-device-width : 414px) and (max-device-height : 896px) and (-webkit-device-pixel-ratio : 2) {
+	
+	
+}
+
+/*iPhone XS*/
+    @media only screen and (min-device-width : 375px) and (max-device-height : 812px) and (-webkit-device-pixel-ratio : 3) {
+	
+	
+}
+
+/* iphone XS Max */
+    @media only screen and (min-device-width : 414px) and (max-device-height : 896px) and (-webkit-device-pixel-ratio : 3){
+	
+	
+}
+
+/*Galaxy 5s*/
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
+   
+		
+}
+
+
+/*/////////Other androids///////////*/
+
+/*Samsung Galaxy S9 Media Queries (In terms of Mobile only)*/
+
+@media only screen and (min-width: 360px) and (max-width: 767px) { 
+	/*myStyles*/
+}
+
+
   
   
   /*---LAPTOPS AND ABOVE---*/

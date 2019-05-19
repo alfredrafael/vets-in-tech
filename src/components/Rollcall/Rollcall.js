@@ -297,7 +297,7 @@ class Rollcall extends React.Component {
                 <aside class="right">
 
                       <div>
-                        <h2  style={{marginBottom: '-2%', fontWeight: '300'}}><strong>{student.name}</strong></h2>
+                        <h2  className="studentNameInModalforMobile" style={{marginBottom: '-2%', fontWeight: '300'}}><strong>{student.name}</strong></h2>
                       </div>
                       
                       <div>

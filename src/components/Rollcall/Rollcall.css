@@ -120,8 +120,27 @@
 
 
 
-  /*////////////////////////////////////////////////////*/
+/*/////////////////////////MEDIA QUERIES START///////////////////////////*/
 
+/*iPhone 5*/
+@media (device-height : 568px) 
+   and (device-width : 320px) 
+   and (-webkit-min-device-pixel-ratio: 2) {
+
+    .sectionHeader {
+      font-size: 275% !important;
+    }
+
+    .studentIterationCards {
+      display: none !important;
+    }
+
+    .studentNameInModalforMobile {
+      font-size: 180%;
+      margin-top: 5%
+    }
+	
+}
 
 /*iPhone 6/7/8*/
 @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (-webkit-device-pixel-ratio: 2) {
@@ -129,8 +148,82 @@
   .studentIterationCards {
     display: none !important;
   }
+}
 
 
+
+
+/*iPhone 6+/7+/8+ */
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (-webkit-device-pixel-ratio: 3) { 
+  .studentIterationCards {
+    display: none !important;
+  }
+}
+
+
+
+
+/*iPhone X*/
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 812px) 
+    and (-webkit-device-pixel-ratio : 3) {
+
+      .studentIterationCards {
+        display: none !important;
+      }
+	
+}
+
+
+
+
+/*iPhone XR*/
+@media only screen and (min-device-width : 414px) and (max-device-height : 896px) and (-webkit-device-pixel-ratio : 2) {
+  
+  .studentIterationCards {
+    display: none !important;
+  }
+	
+}
+
+/*iPhone XS*/
+    @media only screen and (min-device-width : 375px) and (max-device-height : 812px) and (-webkit-device-pixel-ratio : 3) {
+  
+      .studentIterationCards {
+        display: none !important;
+      }
+	
+}
+
+/* iphone XS Max */
+    @media only screen and (min-device-width : 414px) and (max-device-height : 896px) and (-webkit-device-pixel-ratio : 3){
+  
+      .studentIterationCards {
+        display: none !important;
+      }
+	
+}
+
+/*Galaxy 5s*/
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
+    
+    .studentIterationCards {
+      display: none !important;
+    }
+		
+}
+
+
+/*/////////Other androids///////////*/
+
+/*Samsung Galaxy S9 Media Queries (In terms of Mobile only)*/
+
+@media only screen and (min-width: 360px) and (max-width: 767px) { 
+
+    .studentIterationCards {
+      display: none !important;
+    }
 
 }
 
