@@ -275,3 +275,11 @@
 
 }
 
+/* ----------- Wide Screens ----------- */
+
+
+@media only screen  and (min-width : 1224px) {
+    .sponsorsMobileOnly {
+        display: none !important;
+    }
+}

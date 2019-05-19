@@ -8,13 +8,13 @@ class Testimonials extends React.Component {
   render() {
     return (
         <div className='testimonialDiv'>
-      <div className="testimonialHeader" style={{background: 'pink'}}>
       
-      </div>
         <div
         className="testimonialWrapper"
         style={{ width: "100vw", height: "100vh"}}
       >
+
+     {/*  <img src="https://i.imgur.com/Xu6vewr.png" style={{maxWidth: '20%', paddingTop: '25px'}}/>  */}
 
       <Row>
           <Col style={{ textAlign: "center", paddingTop: '3%' }}>
@@ -24,7 +24,7 @@ class Testimonials extends React.Component {
           </Col>
         </Row>
 
-        <Row style={{ width: "100vw", height: "100vh"}}>
+        <Row style={{ width: "100vw"}}>
           <Col style={{ height: "50vh"}}>
             <blockquote
               className="blockquote"
