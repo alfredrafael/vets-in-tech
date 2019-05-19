@@ -64,6 +64,8 @@ class VideoHero extends React.Component {
           style={{ width: "100%", objectFit: "cover" }}
         />
 
+        <img className="heroPicForMobile" src="https://i.imgur.com/ZLDbVwQ.jpg"style={{ width: "100%", objectFit: "cover" }}/>
+
         <div
           className="theOverlay"
           style={{
@@ -78,6 +80,7 @@ class VideoHero extends React.Component {
             overflow: "hidden"
           }}
         >
+
           <div style={{ height: "100vh" }} className="home-overlay-div">
             <Jumbotron style={{ background: "transparent", marginTop: "30%"}} className='myJumbotron'>
               <h1 className="display-3">Vets In Tech. Learning. Together</h1>

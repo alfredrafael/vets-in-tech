@@ -1,3 +1,4 @@
+
 /*/////////////////////////////////////////////// MEDIA QUERIES START //////////////////////////////////////////////*/
 
 /*Galaxy 5s*/
@@ -12,6 +13,14 @@
         font-size: 150%;
         margin-top: -10%;
         font-weight: bold;
+    }
+
+    video {
+        display: none;
+    }
+
+    .heroPicForMobile {
+        margin-top: -13px;
     }
 
 }
@@ -30,6 +39,10 @@
         margin-top: -10%;
         font-weight: bold;
     }
+
+    video {
+        display: none;
+    }
 }
 
 /*iPhone XR*/
@@ -44,6 +57,9 @@
         font-size: 150%;
         margin-top: -10%;
         font-weight: bold;
+    }
+    video {
+        display: none;
     }
 }
 /*iPhone 5*/
@@ -62,6 +78,9 @@
             margin-top: -10%;
             font-weight: light;
         }
+        video {
+            display: none;
+        }
    }
 
 /*/////////////// iPhone 6/7/8 ///////////////*/
@@ -76,6 +95,9 @@
         font-size: 150%;
         margin-top: -10%;
         font-weight: bold;
+    }
+    video {
+        display: none;
     }
 }
 
@@ -94,10 +116,10 @@
         margin-top: -10%;
         font-weight: bold;
     }
+    video {
+        display: none;
+    }
 }
-
-
-
 
 
 /*/////////////////// iPhone X ///////////////*/
@@ -120,11 +142,13 @@
         margin-top: -10%;
         font-weight: bold;
     }
+    video {
+        display: none;
+    }
+    .heroPicForMobile {
+        margin-top: 2px;
+    }
 }
-
-
-
-
 
 
 
@@ -145,6 +169,10 @@
     .mobileOnly {
         display: none;
     }
+
+    .heroPicForMobile {
+        display: none;
+    }
 }
 
 
@@ -157,6 +185,18 @@
   and (min-resolution: 192dpi) { 
   
     .mobileOnly {
-        display: none;
+        display: none !important;
+    }
+
+    .heroPicForMobile {
+        display: none !important;
     }
 }
+
+/* ----------- Wide Screens ----------- */
+
+@media only screen  and (min-width : 1224px) {
+    .heroPicForMobile {
+        display: none !important;
+    }
+  }
