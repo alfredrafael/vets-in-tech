@@ -15,7 +15,6 @@ class Footer extends React.Component {
 
         return (
             <div className='footerDiv'>
-            <Container>
             <Row>
                 <Col>
                     <ul className="footer-nav">
@@ -38,7 +37,6 @@ class Footer extends React.Component {
                     Copyright &copy; {currentYear} by &nbsp; <a href="https://alfredorafael.com/"><img src="https://i.imgur.com/6BvcC6F.png" style={{maxWidth: '12%'}}/></a> &nbsp; .All rights reserved.
                 </p>
             </Row>
-        </Container>
 
 
            </div>
