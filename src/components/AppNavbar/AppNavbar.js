@@ -149,13 +149,22 @@ class AppNavbar extends React.Component {
               </NavItem>
               <UncontrolledDropdown nav inNavbar>
                 <DropdownToggle nav caret style={{ color: "white" }}>
-                  Options
+                  Contacts
                 </DropdownToggle>
                 <DropdownMenu right>
-                  <DropdownItem>Option 1</DropdownItem>
-                  <DropdownItem>Option 2</DropdownItem>
+                <DropdownItem href="https://vetsintech.co/" target="_blank" style={{fontWeight: 'bold'}}>
+                  Vets in Tech
+                  </DropdownItem>
+                  <DropdownItem href="https://www.linkedin.com/in/katherinewebster/" target="_blank">
+                  Katherine Webster
+                  </DropdownItem>
+                  <DropdownItem href="https://www.linkedin.com/in/ccstarling/" target="_blank">
+                  Chris Starling
+                  </DropdownItem>
                   <DropdownItem divider />
-                  <DropdownItem>Reset</DropdownItem>
+                  <DropdownItem href="https://www.linkedin.com/in/alfredo-rafael/" target="_blank" style={{fontWeight: 'bold'}}>
+                  Alfredo R. Pabon
+                  </DropdownItem>
                 </DropdownMenu>
               </UncontrolledDropdown>
             </Nav>
