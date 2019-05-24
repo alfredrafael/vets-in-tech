@@ -4,6 +4,9 @@
   "private": true,
   "homepage": "https://alfredrafael.github.io/vets-in-tech",
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.18",
+    "@fortawesome/free-solid-svg-icons": "^5.8.2",
+    "@fortawesome/react-fontawesome": "^0.1.4",
     "bootstrap": "^4.3.1",
     "gh-pages": "^2.0.1",
     "mdbreact": "^4.14.0",

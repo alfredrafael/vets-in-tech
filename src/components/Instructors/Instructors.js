@@ -41,7 +41,8 @@ class Instructors extends React.Component {
           id: "2",
           logo: ""
         }
-      ]
+      ], modal: false,
+      clickedInstructor: null,
     };
   }
 
