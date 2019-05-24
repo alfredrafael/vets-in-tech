@@ -285,9 +285,9 @@ class Rollcall extends React.Component {
 
 
         <ModalBody key={this.state.clickedStudent.id}>
-            <section class="dividedInTwo">
-              <div class="dividedInTwoContainer">
-                <article class="flexedArea">
+            <section className="dividedInTwo">
+              <div className="dividedInTwoContainer">
+                <article className="flexedArea">
                   <img
                     src={student.photo}
                     style={{ maxWidth: "100%", display: "inline-block", borderRadius: '5%'}}
