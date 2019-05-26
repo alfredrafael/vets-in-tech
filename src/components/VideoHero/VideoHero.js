@@ -57,8 +57,9 @@ class VideoHero extends React.Component {
       <Fade>
         <video
           {...videoProps}
-          // src={myVideoBanner}
-          src={'https://i.imgur.com/4fCj9Y9.mp4'}
+          // src={myVideoBanner} // replaces video from this file
+         // src={'https://i.imgur.com/4fCj9Y9.mp4'} // replaces video from Imgur
+          src={'http://alfredorafael.com/wp-content/uploads/2019/02/GA-hero-clip-4.mp4'}
           data-test
           autoPlay
           style={{ width: "100%", objectFit: "cover" }}
